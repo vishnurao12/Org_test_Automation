@@ -41,6 +41,10 @@ pipelines:
             - name: S_connecting_resource_node_test
         execution:
           onExecute:
+<<<<<<< HEAD
+=======
+            - printenv
+>>>>>>> Update S_PipelineSource.yml
             - docker images
 
       - name: S_c7dynamic
@@ -51,6 +55,10 @@ pipelines:
             - name: S_connecting_resource_node_test
         execution:
           onExecute:
+<<<<<<< HEAD
+=======
+            - printenv
+>>>>>>> Update S_PipelineSource.yml
             - docker images
 
       - name: S_u18dynamic
@@ -61,6 +69,10 @@ pipelines:
             - name: S_connecting_resource_node_test
         execution:
           onExecute:
+<<<<<<< HEAD
+=======
+            - printenv
+>>>>>>> Update S_PipelineSource.yml
             - docker images
 
       - name: S_u20dynamic
@@ -71,6 +83,10 @@ pipelines:
             - name: S_connecting_resource_node_test
         execution:
           onExecute:
+<<<<<<< HEAD
+=======
+            - printenv
+>>>>>>> Update S_PipelineSource.yml
             - docker images
             
       - name: S_c8dynamic
@@ -81,4 +97,8 @@ pipelines:
             - name: S_connecting_resource_node_test
         execution:
           onExecute:
+<<<<<<< HEAD
+=======
+            - printenv
+>>>>>>> Update S_PipelineSource.yml
             - docker images
